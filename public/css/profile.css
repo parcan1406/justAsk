@@ -1,0 +1,84 @@
+.delete-form {
+  color: #000;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+img.profile-image-small {
+  width: 24px;
+  height: 24px;
+}
+
+a.rel-topic,
+a.rel-topic:hover {
+  background: #9FD0C8;
+  color: #000;
+  padding: 5px;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.show-comments {
+  cursor: pointer;
+}
+
+.profile .profile-header {
+  padding: 10px;
+  border-bottom: 2px solid #e2e2e2;
+}
+
+.profile .profile-header .profile-avatar {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.profile .profile-header .profile-avatar .profile-image {
+  width: 142px;
+  height: 142px;
+  display: block;
+}
+
+.profile .profile-header .profile-avatar .change-avatar {
+  display: none;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.81);
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.profile .profile-header #avatar-file {
+  display: none;
+}
+
+.profile .profile-header .update-avatar-btn {
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 21px;
+}
+
+.profile .answers .question {
+  margin-bottom: 10px;
+}
+
+.profile .answers .question .question-header .title a {
+  color: inherit;
+}
+
+.profile .answers .question .question-header .title span {
+  font-size: 18px;
+}
+
+.profile .question-header .title span {
+  font-size: 22px;
+}
+
+.profile .question-header a.rel-topic {
+  background: #9FD0C8;
+  color: #000;
+  padding: 5px;
+  text-decoration: none;
+  opacity: 0.7;
+}
+

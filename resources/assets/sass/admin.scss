@@ -1,0 +1,23 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import "~font-awesome/scss/font-awesome.scss";
+
+@import "common";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+table.admin td.actions a {
+  color: $black;
+}
+
+#navbar {
+  .active {
+    color: $white;
+  }
+}
+
+
+
+

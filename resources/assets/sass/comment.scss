@@ -1,0 +1,39 @@
+@import "common";
+
+.comments-container {
+ margin-top: 10px;
+  //display: none;
+  ul {
+    margin-top: 10px;
+    border-left: dotted 1px #d8d8d8;
+    margin-left: 10px;
+  }
+  .comment-field {
+    display: inline-block;
+    width: 80%;
+  }
+  .comment-user, .comment-date {
+    padding: 3px;
+  }
+  li.comment {
+    border: none;
+    background: inherit;
+  }
+
+  .reply-to {
+    span {
+      display: inline-block;
+      padding-left: 10px;
+      max-width: 100px;
+      overflow: hidden;
+      vertical-align: top;
+    }
+    i {
+      vertical-align: top;
+    }
+  }
+  i.add-comment {
+    cursor: pointer;
+  }
+}
+

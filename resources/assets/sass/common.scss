@@ -1,0 +1,22 @@
+@import "variables";
+
+.delete-form {
+  color: #000;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+img.profile-image-small {
+  width: 24px;
+  height: 24px;
+}
+a.rel-topic, a.rel-topic:hover {
+  background: $sinbad;
+  color: $black;
+  padding: 5px;
+  text-decoration: none;
+  opacity: 0.7;
+}
+.show-comments {
+  cursor: pointer;
+}

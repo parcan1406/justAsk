@@ -1,0 +1,107 @@
+.delete-form {
+  color: #000;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+img.profile-image-small {
+  width: 24px;
+  height: 24px;
+}
+
+a.rel-topic,
+a.rel-topic:hover {
+  background: #9FD0C8;
+  color: #000;
+  padding: 5px;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.show-comments {
+  cursor: pointer;
+}
+
+.comments-container {
+  margin-top: 10px;
+}
+
+.comments-container ul {
+  margin-top: 10px;
+  border-left: dotted 1px #d8d8d8;
+  margin-left: 10px;
+}
+
+.comments-container .comment-field {
+  display: inline-block;
+  width: 80%;
+}
+
+.comments-container .comment-user,
+.comments-container .comment-date {
+  padding: 3px;
+}
+
+.comments-container li.comment {
+  border: none;
+  background: inherit;
+}
+
+.comments-container .reply-to span {
+  display: inline-block;
+  padding-left: 10px;
+  max-width: 100px;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.comments-container .reply-to i {
+  vertical-align: top;
+}
+
+.comments-container i.add-comment {
+  cursor: pointer;
+}
+
+.question-header .title span {
+  font-size: 24px;
+}
+
+.question-header a.rel-topic {
+  background: #9FD0C8;
+  color: #000;
+  padding: 5px;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.question-content {
+  margin-top: 20px;
+}
+
+.answers {
+  margin-top: 20px;
+}
+
+form.create-question textarea {
+  height: 150px;
+}
+
+.add-answer-field,
+.add-comment-field {
+  margin-top: 20px;
+  display: none;
+}
+
+.answer .edit-form textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 992px) {
+  .answer-header .info {
+    margin-top: 10px;
+  }
+}
+
